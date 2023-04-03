@@ -1,15 +1,16 @@
 .shop-container {
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(239, 239, 239);
 }
 
 .products-container{
     margin: 50px 35px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-    grid-gap: 25px;
+    grid-gap: 18px;
 }
 
-.order-summery-container{
-    height: 100%;
+.cart-container{
+    background-color: #FFE0B3;
 }

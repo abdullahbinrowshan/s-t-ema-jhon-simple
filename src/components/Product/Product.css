@@ -1,5 +1,6 @@
 .product {
     padding: 8px;
+    background-color: #fff;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
@@ -41,6 +42,7 @@
     transition: 0.3s;
 }
 
-.info-footer button:hover {
-    background-color: #f9c77c;
+.info-footer button:hover,
+.info-footer button:focus {
+    background-color: #ffc772;
 }
